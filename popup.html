@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Notes</title>
+  <script src="popup.js"></script>
+  <style>
+    /* Your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    #noteArea {
+      width: 250px;
+      height: 150px;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+      margin-bottom: 10px;
+    }
+
+    #saveButton {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #saveButton:hover {
+      background-color: #45a049;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quick Notes</h1>
+  <textarea id="noteArea" rows="8" cols="30"></textarea>
+  <button id="saveButton">Save</button>
+</body>
+</html>
